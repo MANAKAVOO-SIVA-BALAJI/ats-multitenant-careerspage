@@ -5,7 +5,7 @@ import { JobList } from "../components/JobList";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
 import { headers } from "next/headers";
 import { notFound } from "next/navigation";
-
+export const runtime = "edge";
 export default async function CareersPage() {
   const domain = "docbox";
   // const host = headers().get("host"); // docbox.example.com

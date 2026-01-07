@@ -3,7 +3,7 @@ import {fetchJobById,fetchTenantData} from "../../data/data_fetch";
 import Link from "next/link";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../../components/ui/card";
 import { Button } from "../../components/ui/button";
-
+export const runtime = "edge";
 export default async function Jobpage({
   params,
 }: {
