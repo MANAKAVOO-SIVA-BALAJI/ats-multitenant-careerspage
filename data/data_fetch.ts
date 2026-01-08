@@ -3,7 +3,7 @@ import {getTenant } from '../lib/get-tenant';
 
 export async function fetchTenantData() {
   const tenant = await getTenant();
-  
+  console.log("Fetching tenant data for:", tenant);
   const response = await fetch(`${process.env.NEXT_PUBLIC_CLOUDFLARE_API_URL}/tenant?domain=${tenant}`, {
     cache: 'no-store', // or use your caching strategy
   });
