@@ -2,9 +2,9 @@ import Link from "next/link";
 // import { getTenantJobsData, getTenantData } from "../data/data_retrival";
 import {fetchTenantData, fetchTenantJobsData} from "../data/data_fetch";
 import { JobList } from "../components/JobList";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
-import { headers } from "next/headers";
-import { notFound } from "next/navigation";
+// import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
+// import { headers } from "next/headers";
+// import { notFound } from "next/navigation";
 export const runtime = "edge";
 export default async function CareersPage() {
   const domain = "docbox";
