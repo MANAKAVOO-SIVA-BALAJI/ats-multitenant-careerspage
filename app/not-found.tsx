@@ -8,7 +8,7 @@ export default function NotFound() {
         href="/"
         className="text-blue-600 underline"
       >
-        Go back home
+        Go back home, this is my custom 404 page!
       </a>
     </div>
   );
